@@ -1,0 +1,65 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container 
+{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bill-header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bill-header h1 
+{
+    margin: 0;
+}
+
+.print-button, .calculate-button 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top:10px;
+    
+}
+
+.print-button:hover, .calculate-button:hover 
+{
+    background-color: #45a049;
+}
+
+.bill-details 
+{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.bill-details p 
+{
+    margin: 5px 0;
+}
+
+@media print 
+{
+    .print-button, form {
+        display: none;
+    }
+}

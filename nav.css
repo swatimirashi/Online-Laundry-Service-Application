@@ -1,0 +1,72 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins;
+}
+.back-button, .front-button {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: #a8b7f3;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 4.5%;
+    padding: 12px;
+    border-radius: 3px;
+    width: 40px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .back-button {
+    left: 40px;
+    }
+    
+    .front-button {
+    left: 100px;
+    }
+header 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #30475e;
+    color: white;
+    padding: 20px 0;
+}
+
+header nav a 
+{
+    color: rgba(238, 234, 233, 0.885);
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+header nav a.active 
+{
+    background-color: orange; 
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+}
+.bookapickup
+{
+    border-radius:0px;
+    padding:10px 20px;
+    background-color: #5ce761;
+    border: none;
+    text-align: center;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+}
+
+

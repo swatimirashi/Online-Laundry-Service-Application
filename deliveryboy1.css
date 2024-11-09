@@ -1,0 +1,87 @@
+h1 
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+table 
+{
+    width: 97%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td 
+{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+th 
+{
+    background-color: #f2f2f2;
+    font-size: 25px;
+
+}
+
+button[name="pickup"],
+button[name="delivery"] 
+{
+    background-color: rgb(253, 6, 6);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button[name="pickup"][data-status="Picked Up"] 
+{
+    background-color: rgb(3, 120, 103);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button[name="in_progress"] 
+{
+    background-color: #ffc107;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button[name="in_progress"][data-status="Completed"] 
+{
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button[name="delivery"][data-status="Delivered"] 
+{
+    background-color: rgb(144, 4, 95);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.Picked-Up 
+{
+    background-color: red;
+}

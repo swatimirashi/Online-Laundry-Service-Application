@@ -1,0 +1,85 @@
+.bookpickup 
+{
+    background-color: #0c8710;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 140px;
+
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+h1 
+{
+    margin-top:40px;
+    margin-left: 100px;
+}
+
+.form-container 
+{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1230px;
+    margin-bottom: 600px;
+    height:650px;
+}
+
+.form-container h1 
+{
+    font-size: 25px;
+    color: #050707;
+    text-align: left;
+    font-weight: 800;
+}
+
+.form-container label 
+{
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-weight: bolder;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container textarea,
+.form-container select 
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.form-container .bookpickup 
+{
+    display: block;
+    margin: 0 auto; 
+}
+
+h5{
+    font-weight: 100;
+    font-style:Arial,sans-serif;
+    text-align: center;
+    color:#023d30 ;
+    margin-bottom:20px;
+}

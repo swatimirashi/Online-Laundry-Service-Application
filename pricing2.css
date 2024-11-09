@@ -1,0 +1,83 @@
+
+.container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.box 
+{
+    background-color: #57f806;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 490px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box h2 
+{
+    font-size: 30px;
+    margin: 0 0 10px;
+    color: #010408;
+}
+
+.box p 
+{
+    font-size: 17px;
+    color: #511703;
+    margin: 0 0 10px;
+}
+
+.pricing 
+{
+    font-size: 50px;
+    color: #333;
+    margin: 0 0 20px;
+    font-weight: bold;
+    
+}
+
+.book-now 
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.book-now:hover 
+{
+    background-color: #0056b3;
+}
+
+.image 
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin-top: 20px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3
+{
+    color:red;
+    font-size:35px;;
+}
+

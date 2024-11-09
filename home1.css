@@ -1,0 +1,39 @@
+.advertisement 
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-left: 900px;
+    margin-top: 120px;
+
+}
+
+.advertisement h1 
+{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.advertisement p 
+{
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.advertisement .highlight 
+{
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Laundry Service Dashboard</title>
+    <link rel="stylesheet" href="nav.css">
+    <script>
+        function confirmLogout()
+        {
+            if(confirm('Are you sure you want to logout?'))
+            {
+                window.location.href='login.php';
+            }
+        }
+    </script>
+</head>
+    <style>
+    body
+    {
+    background-image:url('admin1.jpg');
+    background-size:100%;
+    background-repeat:no-repeat;
+    }
+
+    h1
+    {
+        margin-left:880px;
+        margin-top:110px;
+        color:rgb(23, 23, 148);
+        font-family:'Roboto',sans-serif;
+        font-size:40px ;
+        font-weight: 800;
+    }
+    </style>
+    <header>
+        <nav class="nav-menu">
+            <button class="back-button" onclick="confirmLogout()">&larr;</button>
+            <button class="front-button" onclick="document.location = 'dashboard.php'">&rarr;</button>
+        </nav>
+        <h2>Online Laundry Services</h2>  
+        <nav>
+            <a href="dashboard.php">DASHBOARD</a>
+            <a href="registeredpeople.php">REGISTERED</a>
+            <a href="orderedpeople.php">OREDERED</a>
+            <a href="update.php">UPDATES</a>
+        </nav>
+    </header>
+    <h1>Admin</h1>
+
+</body>
+</html>

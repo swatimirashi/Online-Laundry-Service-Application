@@ -1,0 +1,78 @@
+body 
+{
+    background-image: url('laundry4.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.content 
+{
+    padding: 50px;
+}
+
+.welcome-text 
+{
+    font-size: 55px;
+    color: darkblue;
+    margin-bottom: 20px;
+    background-color:rgba(13, 235, 24, 0.4) ;
+    margin: 0 auto;
+    padding: 10px;
+    width:850px;
+    font-weight: bold;
+    margin-left: 280px;
+}
+
+.fade-in-text 
+{
+    opacity: 0;
+    color: black;
+    animation: fadeInText 1s forwards, slideIn 1s forwards;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px 0 rgb(245, 245, 87);
+    margin-left: 430px;
+}
+
+.services 
+{
+    margin-bottom: 30px;
+} 
+
+@keyframes fadeInText 
+{
+    to {opacity: 1;}
+}
+
+@keyframes slideIn 
+{
+    from {transform: translateY(20px);}
+    to {transform: translateY(0);}
+}
+
+h4
+{
+    text-shadow: 2.5px 2.5px 0 rgb(236, 29, 125);
+}
+
+.contact-bar 
+{
+    background-color: rgba(1, 1, 44, 0.8);
+    color: #fff;
+    padding: 30px 30px;
+    width: 100%;
+} 
+           
+.contact-info 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    width:1500px;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.how-we-work-section 
+{
+    margin-bottom: 50px;
+}
+
+.container 
+{
+    text-align: center;
+    padding: 40px; 
+    background-color: #e6f3ff; 
+    border-radius: 20px; 
+    margin-bottom: 20px; 
+    font-size:25px;
+}
+
+.steps 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gif-container 
+{
+    margin: 20px 80px; 
+}
+
+.gif-container img 
+{
+    width: 300px; 
+    height: auto; 
+}
+
+.text-overlay 
+{
+    text-align: center;
+    font-size: 18px; 
+    color: #333333; 
+}
+
