@@ -10,12 +10,12 @@ This project simplifies laundry management for customers, admins, and delivery p
   - Book pickups and track orders  
   - View delivery status
 
-- **Admin Panel**  
+- 🛠️ **Admin Panel**  
   - Dashboard with all orders  
   - Update status (pickup, in progress, delivered)  
   - Billing management
 
-- **Delivery Boy Panel**  
+- 🚚 **Delivery Boy Panel**  
   - Manage pickup and delivery status  
   - View assigned orders
 
